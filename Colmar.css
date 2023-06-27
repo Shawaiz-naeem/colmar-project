@@ -2,19 +2,82 @@ h1{
     color: rgb(67, 42, 165);
     display: flex;
     justify-content: center;
+    font-family:'Franklin gothic medium'
+
 }
 
 ul{
-    display: flex;
+    display:flex;
     flex-direction: row;
     list-style-type: none;
     background-color: beige;
     justify-content: space-around;
+    font-family:'Franklin gothic medium'
 }
 li{
-    padding: 20px;
+    padding: 30px;
+    font-size: 20px;
+    color: rgb(67, 42, 165);
 }
 li:hover{
     background-color: rgb(67, 42, 165);
     color: aliceblue;
+}
+main{
+    background-color:beige;
+    height: 365px;
+}
+img{
+    width:60%;
+    display: grid;
+}
+.a{
+    display: grid;
+    border: 4px dodgerblue solid;
+    grid-row-start: 1;
+    grid-row-end: span 4;
+    grid-column-start: 1;
+    grid-column-end: span 3 ;
+    background-color: ghostwhite;
+}
+.grid{
+    height: 100px;
+    width: 45%;
+    display:grid;
+    grid-template-columns: 100px;
+    grid-template-rows: 300px;
+    padding: 32px 24px;
+}
+.para h2{
+    text-align: right;
+    padding:20px 40px;
+    font-size: 55px;
+    position:absolute; 
+    right:50px; 
+    top:180px;
+    font-family: "Arial narrow";
+}
+.para h3{
+    text-align:right;
+    font-family: "Arial narrow";
+    padding:20px 40px;
+    font-size: 20px;
+    position:absolute; 
+    right:220px; 
+    top:300px;
+
+
+}
+button{
+    position:absolute; 
+    right:285px;
+    top:400px;
+    font-size:50px;
+    padding:15px 30px;
+    color: rgb(67, 42, 165);
+    background-color: ghostwhite;
+}
+button:hover{
+    color: white;
+    background-color: rgb(67, 42, 165);
 }
