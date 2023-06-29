@@ -81,3 +81,9 @@ button:hover{
     color: white;
     background-color: rgb(67, 42, 165);
 }
+#logo{
+    width: 60px;
+    display: inline;
+    height: 30px;
+    
+}
